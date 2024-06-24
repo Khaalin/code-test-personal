@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <script src="https://kit.fontawesome.com/e1ddcc5f9f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-medal-865-433843.png?f=webp&w=256" id="header-img" alt="Company Logo"></img>
+      <span>Champion</span>
+    </div>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video">Example</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="#form">Contact</a>
+    </nav>
+  </header>
 
+  <section id="hero">
+    <h1>We Are All Champions</h1>
+    <p>Start Training With Us Today</p>
+    <form id="form-hero" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    <a href="#features" class="btn">Learn More</a>
+  </section>
+
+  <section id="features">
+    <div class="feature">
+      <i class="fa-solid fa-dumbbell"></i>
+      <h3>Fast Results</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="feature">
+      <i class="fa-regular fa-handshake"></i>
+      <h3>Personal Touch</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="feature">
+      <i class="fa-solid fa-money-bill-transfer"></i>
+      <h3>Fair Pricing</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </section>
+
+  <iframe id ='video' width="523" height="294" src="https://www.youtube.com/embed/BHVCDjzG4Xc" title="Clarence Kennedy SUPER SUNDAY 227kg / 500lbs Clean PR! 320kg x3 Deadlift! Speed Squats + Crazy Flips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <p class="video-p">One of our clients*</p>
+
+
+  <section id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-container">
+      <div class="pricing-plan">
+        <h3>Basic</h3>
+        <p class="price">$9.99/month</p>
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <a href="#form" class="btn">Sign Up</a>
+      </div>
+      <div class="pricing-plan">
+        <h3>Pro</h3>
+        <p class="price">$19.99/month</p>
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <a href="#form" class="btn">Sign Up</a>
+      </div>
+      <div class="pricing-plan">
+        <h3>Turbo-Pro</h3>
+        <p class="price">$99.99/month</p>
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <a href="#form" class="btn">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h2>Get Started Today</h2>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+
+  <footer>
+    <p>*Obviously not, just a strong guy. These results cannot be achieved by an average person, but you can be better than you are now.</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
